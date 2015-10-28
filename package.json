@@ -1,0 +1,40 @@
+{
+  "name": "redis-sync",
+  "version": "2.0.0",
+  "keywords": ["redis", "slave", "replication", "sync"],
+  "homepage": "https://github.com/newsteinking/redis-sync.git",
+  "description": "redis replication slave",
+  "main": "redis-sync.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newsteinking/redis-sync.git"
+  },
+  "engines": {
+    "node": "^4.0.0"
+  },
+  "author": "newstein  newstein33@gmail.com ",
+  "dependencies": {"rdb-parser": "0.1.5", "bufferjs": "1.1.0"},
+  "devDependencies": {"rawhash": "0.1.6"},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs" : { "url" : "https://github.com/newsteinking/redis-sync/issues" },
+  "contributors": [
+    {
+      "name": "newstein",
+      "email": "newstein33@gmail.com",
+      "web": "https://github.com/newsteinking/redis-sync"
+    },
+    {
+      "name": "Carlos Guerreiro",
+      "email": "cguerreiro@igalia.com",
+      "web": "http://igalia.com"
+    }
+  ],
+  "scripts": {
+    "test": "./tests/redisTest"
+  }
+}

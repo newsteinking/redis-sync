@@ -1,0 +1,609 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/sean/angularjs/monitoring3/Angular_Seed_Project_Grunt/node-v4.0.0-linux-x64/bin/node',
+1 verbose cli   '/home/sean/angularjs/monitoring3/Angular_Seed_Project_Grunt/node-v4.0.0-linux-x64/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/package.json
+5 warn package.json redis-sync@0.1.4 No license field.
+6 verbose install where, deps [ '/home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync',
+6 verbose install   [ 'rdb-parser', 'bufferjs', 'rawhash' ] ]
+7 verbose install where, peers [ '/home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync',
+7 verbose install   [] ]
+8 verbose installManyTop reading for lifecycle /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/package.json
+9 info preinstall redis-sync@0.1.4
+10 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/package.json
+11 silly cache add args [ 'rdb-parser@0.1.5', null ]
+12 verbose cache add spec rdb-parser@0.1.5
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: 'rdb-parser@0.1.5',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'rdb-parser',
+13 silly cache add   rawSpec: '0.1.5',
+13 silly cache add   spec: '0.1.5',
+13 silly cache add   type: 'version' }
+14 silly addNamed rdb-parser@0.1.5
+15 verbose addNamed "0.1.5" is a plain semver version for rdb-parser
+16 silly mapToRegistry name rdb-parser
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/rdb-parser
+20 verbose addNameVersion registry:https://registry.npmjs.org/rdb-parser not in flight; fetching
+21 silly cache add args [ 'bufferjs@1.1.0', null ]
+22 verbose cache add spec bufferjs@1.1.0
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'bufferjs@1.1.0',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'bufferjs',
+23 silly cache add   rawSpec: '1.1.0',
+23 silly cache add   spec: '1.1.0',
+23 silly cache add   type: 'version' }
+24 silly addNamed bufferjs@1.1.0
+25 verbose addNamed "1.1.0" is a plain semver version for bufferjs
+26 silly mapToRegistry name bufferjs
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/bufferjs
+30 verbose addNameVersion registry:https://registry.npmjs.org/bufferjs not in flight; fetching
+31 silly cache add args [ 'rawhash@0.1.6', null ]
+32 verbose cache add spec rawhash@0.1.6
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'rawhash@0.1.6',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'rawhash',
+33 silly cache add   rawSpec: '0.1.6',
+33 silly cache add   spec: '0.1.6',
+33 silly cache add   type: 'version' }
+34 silly addNamed rawhash@0.1.6
+35 verbose addNamed "0.1.6" is a plain semver version for rawhash
+36 silly mapToRegistry name rawhash
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/rawhash
+40 verbose addNameVersion registry:https://registry.npmjs.org/rawhash not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/rawhash
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 16:05:13
+44 verbose request id 0505390a6abbc51c
+45 http request GET https://registry.npmjs.org/rawhash
+46 verbose request uri https://registry.npmjs.org/rdb-parser
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 16:05:13
+49 verbose etag "6KGIW2EEL22HQHETNC35DPSCF"
+50 http request GET https://registry.npmjs.org/rdb-parser
+51 verbose request uri https://registry.npmjs.org/bufferjs
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 16:05:13
+54 verbose etag "2W3GJSAN9S8MSVSA6OZLFQLV5"
+55 http request GET https://registry.npmjs.org/bufferjs
+56 http 200 https://registry.npmjs.org/rawhash
+57 silly get cb [ 200,
+57 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 silly get     etag: '"4ISYXFD3MS6A5T1MBP02Q1SF"',
+57 silly get     'content-type': 'application/json',
+57 silly get     'cache-control': 'max-age=60',
+57 silly get     'content-length': '11326',
+57 silly get     'accept-ranges': 'bytes',
+57 silly get     date: 'Tue, 27 Oct 2015 07:05:16 GMT',
+57 silly get     via: '1.1 varnish',
+57 silly get     age: '0',
+57 silly get     connection: 'keep-alive',
+57 silly get     'x-served-by': 'cache-nrt6127-NRT',
+57 silly get     'x-cache': 'MISS',
+57 silly get     'x-cache-hits': '0',
+57 silly get     'x-timer': 'S1445929516.200812,VS0,VE189',
+57 silly get     vary: 'Accept' } ]
+58 verbose get saving rawhash to /home/sean/.npm/registry.npmjs.org/rawhash/.cache.json
+59 http 304 https://registry.npmjs.org/bufferjs
+60 silly get cb [ 304,
+60 silly get   { date: 'Tue, 27 Oct 2015 07:05:16 GMT',
+60 silly get     via: '1.1 varnish',
+60 silly get     'cache-control': 'max-age=60',
+60 silly get     etag: '"2W3GJSAN9S8MSVSA6OZLFQLV5"',
+60 silly get     age: '0',
+60 silly get     connection: 'keep-alive',
+60 silly get     'x-served-by': 'cache-nrt6120-NRT',
+60 silly get     'x-cache': 'HIT',
+60 silly get     'x-cache-hits': '1',
+60 silly get     'x-timer': 'S1445929516.329743,VS0,VE173',
+60 silly get     vary: 'Accept' } ]
+61 verbose etag https://registry.npmjs.org/bufferjs from cache
+62 verbose get saving bufferjs to /home/sean/.npm/registry.npmjs.org/bufferjs/.cache.json
+63 silly mapToRegistry name rawhash
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/rawhash
+67 verbose addRemoteTarball https://registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz not in flight; adding
+68 verbose addRemoteTarball [ 'https://registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz',
+68 verbose addRemoteTarball   '4419acc879e5d8a9c1eb51aa5f6e914bd64556b5' ]
+69 info retry fetch attempt 1 at 16:05:14
+70 info attempt registry request try #1 at 16:05:14
+71 http fetch GET https://registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz
+72 silly cache afterAdd bufferjs@1.1.0
+73 verbose afterAdd /home/sean/.npm/bufferjs/1.1.0/package/package.json not in flight; writing
+74 verbose afterAdd /home/sean/.npm/bufferjs/1.1.0/package/package.json written
+75 http 304 https://registry.npmjs.org/rdb-parser
+76 silly get cb [ 304,
+76 silly get   { date: 'Tue, 27 Oct 2015 07:05:16 GMT',
+76 silly get     via: '1.1 varnish',
+76 silly get     'cache-control': 'max-age=60',
+76 silly get     etag: '"6KGIW2EEL22HQHETNC35DPSCF"',
+76 silly get     age: '0',
+76 silly get     connection: 'keep-alive',
+76 silly get     'x-served-by': 'cache-nrt6128-NRT',
+76 silly get     'x-cache': 'MISS',
+76 silly get     'x-cache-hits': '0',
+76 silly get     'x-timer': 'S1445929516.323295,VS0,VE523',
+76 silly get     vary: 'Accept' } ]
+77 verbose etag https://registry.npmjs.org/rdb-parser from cache
+78 verbose get saving rdb-parser to /home/sean/.npm/registry.npmjs.org/rdb-parser/.cache.json
+79 silly cache afterAdd rdb-parser@0.1.5
+80 verbose afterAdd /home/sean/.npm/rdb-parser/0.1.5/package/package.json not in flight; writing
+81 verbose afterAdd /home/sean/.npm/rdb-parser/0.1.5/package/package.json written
+82 http fetch 200 https://registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz
+83 silly fetchAndShaCheck shasum 4419acc879e5d8a9c1eb51aa5f6e914bd64556b5
+84 verbose addTmpTarball /tmp/npm-6380-d7d3d00a/registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz not in flight; adding
+85 verbose addTmpTarball already have metadata; skipping unpack for rawhash@0.1.6
+86 silly cache afterAdd rawhash@0.1.6
+87 verbose afterAdd /home/sean/.npm/rawhash/0.1.6/package/package.json not in flight; writing
+88 verbose afterAdd /home/sean/.npm/rawhash/0.1.6/package/package.json written
+89 silly install resolved [ { name: 'bufferjs',
+89 silly install resolved     description: 'Pure JavaScript Buffer utils.',
+89 silly install resolved     url: 'http://github.com/coolaj86/node-bufferjs/',
+89 silly install resolved     keywords: [ 'util', 'buffer', 'concat', 'chunk', 'indexOf' ],
+89 silly install resolved     author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+89 silly install resolved     contributors: [ [Object], [Object] ],
+89 silly install resolved     dependencies: {},
+89 silly install resolved     version: '1.1.0',
+89 silly install resolved     main: './index',
+89 silly install resolved     engines: { node: '>=0.2.0' },
+89 silly install resolved     readme: 'ERROR: No README data found!',
+89 silly install resolved     _id: 'bufferjs@1.1.0',
+89 silly install resolved     _from: 'bufferjs@1.1.0' },
+89 silly install resolved   { name: 'rdb-parser',
+89 silly install resolved     version: '0.1.5',
+89 silly install resolved     keywords: [ 'redis', 'rdb', 'db', 'parser', 'streaming' ],
+89 silly install resolved     homepage: 'http://perceptiveconstructs.com',
+89 silly install resolved     description: 'async streaming parser for redis RDB dumps',
+89 silly install resolved     main: 'rdb-parser.js',
+89 silly install resolved     repository:
+89 silly install resolved      { type: 'git',
+89 silly install resolved        url: 'git+https://github.com/pconstr/rdb-parser.git' },
+89 silly install resolved     engines: { node: '>=0.6.0 <0.9.0' },
+89 silly install resolved     author:
+89 silly install resolved      { name: 'Carlos Guerreiro',
+89 silly install resolved        url: 'http://perceptiveconstructs.com' },
+89 silly install resolved     dependencies: { 'node-int64': '0.3.0', lzf: '0.1.2', bufferjs: '1.1.0' },
+89 silly install resolved     devDependencies: { jslint: '0.1.8' },
+89 silly install resolved     licenses: [ [Object] ],
+89 silly install resolved     bugs: { url: 'https://github.com/pconstr/rdb-parser/issues' },
+89 silly install resolved     contributors: [ [Object], [Object] ],
+89 silly install resolved     scripts:
+89 silly install resolved      { lint: './node_modules/jslint/bin/jslint.js *.js',
+89 silly install resolved        test: 'node ./tests/parseFile.js' },
+89 silly install resolved     readme: 'rdb-parser\n----------\n\n[node.js](http://nodejs.org/) asynchronous streaming parser for [redis](http://redis.io) RDB database dumps, written in 100% Javascript\n\nInstallation\n------------\n\n`npm install rdb-parser`\n\nUsage\n-----\n\n```javascript\nvar rdb = require(\'rdb-parser\');\n\nconsole.log(rdb.types);\n\nvar parser = new rdb.Parser();\n\nparser.on(\'entity\', function(e) {\n  console.log(e);\n});\n\nparser.on(\'error\', function(err) {\n  throw err;\n});\n\nparser.on(\'end\', function() {\n  console.log(\'done\');\n});\n\nprocess.stdin.pipe(parser);\nprocess.stdin.resume();\n```\n\nStatus\n------\n\n`rdb-parser` aims for complete coverage of rdb dumps.\n\nIt is close to complete at this point supporting all entity types, but may be missing one or two of the variety of encoding variations that redis can use. And it has had limited testing.\n\nTests\n-----\n\n`npm test` parses a (rather small) .rdb file designed to exercise a variety of types and encodings.\n\nHow you can help\n----------------\n\nIf you have a dump that `rdb-parser` cannot handle please report an issue and/or contribute the dump.\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2011-2012 Carlos Guerreiro, [perceptiveconstructs.com](http://perceptiveconstructs.com)\n\nCopyright (c) 2012 Igalia S.L.\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+89 silly install resolved     readmeFilename: 'README.md',
+89 silly install resolved     _id: 'rdb-parser@0.1.5',
+89 silly install resolved     _from: 'rdb-parser@0.1.5' },
+89 silly install resolved   { name: 'rawhash',
+89 silly install resolved     version: '0.1.6',
+89 silly install resolved     keywords: [ 'key:value', 'buffer', 'store', 'in-memory', 'cache' ],
+89 silly install resolved     homepage: 'https://github.com/pconstr/rawhash',
+89 silly install resolved     description: 'experimental in-memory key:value cache where keys are binary Buffers',
+89 silly install resolved     main: 'index.js',
+89 silly install resolved     repository: { type: 'git', url: 'https://github.com/pconstr/rawhash' },
+89 silly install resolved     engines: { node: '>=0.6.0 <0.9.0' },
+89 silly install resolved     author:
+89 silly install resolved      { name: 'Carlos Guerreiro',
+89 silly install resolved        url: 'http://perceptiveconstructs.com' },
+89 silly install resolved     licenses: [ [Object] ],
+89 silly install resolved     scripts: { test: './test.js', install: 'node-gyp rebuild' },
+89 silly install resolved     gypfile: true,
+89 silly install resolved     readme: 'rawhash\n-------\n\n[![Build Status](https://secure.travis-ci.org/pconstr/rawhash.png)](http://travis-ci.org/pconstr/rawhash)\n\nAn experimental binary friendly alternative to using a hash as a key:value cache, for [node.js](http://www.nodejs.org).\n\nKeys are binary [Buffer](http://nodejs.org/docs/v0.6.5/api/buffers.html) objects rather than strings. Values are arbitrary objects.\n\n`rawhash` is built on [google-sparsehash](http://code.google.com/p/google-sparsehash) (not included) and [murmurhash3](http://code.google.com/p/smhasher/) (included).\n\nInstall\n-------\n\nget google-sparsehash:\n\n*  on Debian/Ubuntu:  `apt-get install libsparsehash-dev`\n*  on OS X: `brew install google-sparsehash` or `port install google-sparsehash`\n\nor get the latest version from the [google\\-sparsehash project](http://code.google.com/p/google-sparsehash/downloads/list)\n\nthen install rawhash itself:\n\n`npm install rawhash`\n\nUsage\n-----\n\n```javascript\nvar rh = require(\'rawhash\');\nvar k = new Buffer(6);\nvar h = new rh.Sparse();\nh.set(k, {a:1, b:2});\nconsole.log(h.get(k));\nh.each(function(k, v) {\n  console.log(k, v);\n});\nh.del(k);\n```\n\nThere are 3 kinds of hashes:\n\n*  `Sparse` is slower, but uses less memory, uses [sparse\\_hash\\_map<>](http://google-sparsehash.googlecode.com/svn/trunk/doc/sparse_hash_map.html)\n*  `Dense` is faster, but uses more memory, uses [dense\\_hash\\_map<>](http://google-sparsehash.googlecode.com/svn/trunk/doc/dense_hash_map.html)\n*  `Map` is usually somewhere between `Sparse` and `Dense`, uses the STL\'s [map<>](http://www.sgi.com/tech/stl/Map.html) which is actually ordered and supports range queries - not exposed in `Map`\n\n`Sparse` and `Dense` take an optional argument to seed `murmurhash3`.\n\n```javascript\nvar h = new rh.Dense(42);\n```\n\nPerformance\n-----------\n\nThis is largely TBD\n\nOn a synthetic test (see `./perf/`) with 150K sets, gets and deletes (very similar to `./test.js`) on a low-end MBP, this is how rawhash compares with using a Javascript hash:\n\n<pre>\nSparse 509 ms\nDense  330 ms\nMap    463 ms\n{}     754 ms\n</pre>\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2011 Carlos Guerreiro, [perceptiveconstructs.com](http://perceptiveconstructs.com)\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+89 silly install resolved     _id: 'rawhash@0.1.6',
+89 silly install resolved     dist:
+89 silly install resolved      { shasum: '4419acc879e5d8a9c1eb51aa5f6e914bd64556b5',
+89 silly install resolved        tarball: 'http://registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz' },
+89 silly install resolved     maintainers: [ [Object] ],
+89 silly install resolved     directories: {},
+89 silly install resolved     _shasum: '4419acc879e5d8a9c1eb51aa5f6e914bd64556b5',
+89 silly install resolved     _resolved: 'https://registry.npmjs.org/rawhash/-/rawhash-0.1.6.tgz',
+89 silly install resolved     _from: 'rawhash@0.1.6' } ]
+90 info install bufferjs@1.1.0 into /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+91 info install rdb-parser@0.1.5 into /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+92 info install rawhash@0.1.6 into /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+93 info installOne bufferjs@1.1.0
+94 verbose installOne of bufferjs to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync not in flight; installing
+95 info installOne rdb-parser@0.1.5
+96 verbose installOne of rdb-parser to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync not in flight; installing
+97 info installOne rawhash@0.1.6
+98 verbose installOne of rawhash to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync not in flight; installing
+99 verbose lock using /home/sean/.npm/_locks/bufferjs-a2fa7e5075255b35.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+100 verbose lock using /home/sean/.npm/_locks/rdb-parser-28adac5910595807.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+101 warn engine rdb-parser@0.1.5: wanted: {"node":">=0.6.0 <0.9.0"} (current: {"node":"4.0.0","npm":"2.14.2"})
+102 silly install write writing bufferjs 1.1.0 to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+103 silly install write writing rdb-parser 0.1.5 to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+104 verbose unbuild node_modules/bufferjs
+105 verbose unbuild node_modules/rdb-parser
+106 verbose lock using /home/sean/.npm/_locks/rawhash-4a624a6e5940c273.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+107 warn engine rawhash@0.1.6: wanted: {"node":">=0.6.0 <0.9.0"} (current: {"node":"4.0.0","npm":"2.14.2"})
+108 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+109 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+110 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+111 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+112 silly install write writing rawhash 0.1.6 to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+113 verbose tar unpack /home/sean/.npm/bufferjs/1.1.0/package.tgz
+114 verbose tar unpacking to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+115 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs is being purged
+116 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+117 verbose tar unpack /home/sean/.npm/rdb-parser/0.1.5/package.tgz
+118 verbose tar unpacking to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+119 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser is being purged
+120 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+121 silly gunzTarPerm modes [ '775', '664' ]
+122 silly gunzTarPerm modes [ '775', '664' ]
+123 verbose unbuild node_modules/rawhash
+124 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+125 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+126 verbose tar unpack /home/sean/.npm/rawhash/0.1.6/package.tgz
+127 verbose tar unpacking to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+128 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash is being purged
+129 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+132 silly gunzTarPerm modes [ '775', '664' ]
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+135 silly gunzTarPerm extractEntry index.js
+136 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+137 silly gunzTarPerm extractEntry concat.js
+138 silly gunzTarPerm modified mode [ 'concat.js', 420, 436 ]
+139 silly gunzTarPerm extractEntry .npmignore
+140 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+141 silly gunzTarPerm extractEntry README.md
+142 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+143 silly gunzTarPerm extractEntry package.json
+144 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+145 silly gunzTarPerm extractEntry .npmignore
+146 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+147 silly gunzTarPerm extractEntry README.md
+148 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+149 silly gunzTarPerm extractEntry add-chunk.js
+150 silly gunzTarPerm modified mode [ 'add-chunk.js', 420, 436 ]
+151 silly gunzTarPerm extractEntry indexOf.js
+152 silly gunzTarPerm modified mode [ 'indexOf.js', 420, 436 ]
+153 silly gunzTarPerm extractEntry rdb-parser.js
+154 silly gunzTarPerm modified mode [ 'rdb-parser.js', 493, 509 ]
+155 silly gunzTarPerm extractEntry .travis.yml
+156 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+157 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+158 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 420, 436 ]
+159 silly gunzTarPerm extractEntry tests/parseFile.js
+160 silly gunzTarPerm modified mode [ 'tests/parseFile.js', 493, 509 ]
+161 silly gunzTarPerm extractEntry tests/test.rdb
+162 silly gunzTarPerm modified mode [ 'tests/test.rdb', 420, 436 ]
+163 silly gunzTarPerm extractEntry index.js
+164 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+165 silly gunzTarPerm extractEntry test.js
+166 silly gunzTarPerm modified mode [ 'test.js', 493, 509 ]
+167 silly gunzTarPerm extractEntry binding.gyp
+168 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 436 ]
+169 silly gunzTarPerm extractEntry libsparsehash.pc
+170 silly gunzTarPerm modified mode [ 'libsparsehash.pc', 420, 436 ]
+171 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+172 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 420, 436 ]
+173 silly gunzTarPerm extractEntry .travis.yml
+174 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+175 silly gunzTarPerm extractEntry perf/native.js
+176 silly gunzTarPerm modified mode [ 'perf/native.js', 493, 509 ]
+177 silly gunzTarPerm extractEntry perf/rawhash.js
+178 silly gunzTarPerm modified mode [ 'perf/rawhash.js', 493, 509 ]
+179 silly gunzTarPerm extractEntry src/MurmurHash3.cpp
+180 silly gunzTarPerm modified mode [ 'src/MurmurHash3.cpp', 420, 436 ]
+181 silly gunzTarPerm extractEntry src/MurmurHash3.h
+182 silly gunzTarPerm modified mode [ 'src/MurmurHash3.h', 420, 436 ]
+183 silly gunzTarPerm extractEntry src/rawhash.cpp
+184 silly gunzTarPerm modified mode [ 'src/rawhash.cpp', 420, 436 ]
+185 silly gunzTarPerm extractEntry wscript
+186 silly gunzTarPerm modified mode [ 'wscript', 420, 436 ]
+187 verbose write writing to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs/package.json
+188 info preinstall bufferjs@1.1.0
+189 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs/package.json
+190 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs/package.json
+191 silly install resolved []
+192 verbose about to build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+193 info build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+194 info linkStuff bufferjs@1.1.0
+195 silly linkStuff bufferjs@1.1.0 has /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules as its parent node_modules
+196 verbose linkBins bufferjs@1.1.0
+197 verbose linkMans bufferjs@1.1.0
+198 verbose rebuildBundles bufferjs@1.1.0
+199 info install bufferjs@1.1.0
+200 info postinstall bufferjs@1.1.0
+201 verbose unlock done using /home/sean/.npm/_locks/bufferjs-a2fa7e5075255b35.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/bufferjs
+202 verbose write writing to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/package.json
+203 info preinstall rdb-parser@0.1.5
+204 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/package.json
+205 silly prepareForInstallMany adding node-int64@0.3.0 from rdb-parser dependencies
+206 silly prepareForInstallMany adding lzf@0.1.2 from rdb-parser dependencies
+207 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/package.json
+208 silly cache add args [ 'node-int64@0.3.0', null ]
+209 verbose cache add spec node-int64@0.3.0
+210 silly cache add args [ 'lzf@0.1.2', null ]
+211 verbose cache add spec lzf@0.1.2
+212 silly cache add parsed spec Result {
+212 silly cache add   raw: 'node-int64@0.3.0',
+212 silly cache add   scope: null,
+212 silly cache add   name: 'node-int64',
+212 silly cache add   rawSpec: '0.3.0',
+212 silly cache add   spec: '0.3.0',
+212 silly cache add   type: 'version' }
+213 silly addNamed node-int64@0.3.0
+214 verbose addNamed "0.3.0" is a plain semver version for node-int64
+215 silly mapToRegistry name node-int64
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry uri https://registry.npmjs.org/node-int64
+219 verbose addNameVersion registry:https://registry.npmjs.org/node-int64 not in flight; fetching
+220 silly cache add parsed spec Result {
+220 silly cache add   raw: 'lzf@0.1.2',
+220 silly cache add   scope: null,
+220 silly cache add   name: 'lzf',
+220 silly cache add   rawSpec: '0.1.2',
+220 silly cache add   spec: '0.1.2',
+220 silly cache add   type: 'version' }
+221 silly addNamed lzf@0.1.2
+222 verbose addNamed "0.1.2" is a plain semver version for lzf
+223 silly mapToRegistry name lzf
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry uri https://registry.npmjs.org/lzf
+227 verbose addNameVersion registry:https://registry.npmjs.org/lzf not in flight; fetching
+228 verbose write writing to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash/package.json
+229 info preinstall rawhash@0.1.6
+230 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash/package.json
+231 verbose request uri https://registry.npmjs.org/node-int64
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 16:05:16
+234 verbose etag "6DW1ULVXJ2K613UMJLJEXDWCK"
+235 http request GET https://registry.npmjs.org/node-int64
+236 verbose request uri https://registry.npmjs.org/lzf
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 16:05:16
+239 verbose etag "F0SAGV95K6HF12ELT1YK523DC"
+240 http request GET https://registry.npmjs.org/lzf
+241 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash/package.json
+242 silly install resolved []
+243 verbose about to build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+244 info build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+245 info linkStuff rawhash@0.1.6
+246 silly linkStuff rawhash@0.1.6 has /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules as its parent node_modules
+247 verbose linkBins rawhash@0.1.6
+248 verbose linkMans rawhash@0.1.6
+249 verbose rebuildBundles rawhash@0.1.6
+250 info install rawhash@0.1.6
+251 verbose unsafe-perm in lifecycle true
+252 http 304 https://registry.npmjs.org/node-int64
+253 silly get cb [ 304,
+253 silly get   { date: 'Tue, 27 Oct 2015 07:05:18 GMT',
+253 silly get     via: '1.1 varnish',
+253 silly get     'cache-control': 'max-age=60',
+253 silly get     etag: '"6DW1ULVXJ2K613UMJLJEXDWCK"',
+253 silly get     age: '20',
+253 silly get     connection: 'keep-alive',
+253 silly get     'x-served-by': 'cache-nrt6122-NRT',
+253 silly get     'x-cache': 'HIT',
+253 silly get     'x-cache-hits': '4',
+253 silly get     'x-timer': 'S1445929518.496597,VS0,VE0',
+253 silly get     vary: 'Accept' } ]
+254 verbose etag https://registry.npmjs.org/node-int64 from cache
+255 verbose get saving node-int64 to /home/sean/.npm/registry.npmjs.org/node-int64/.cache.json
+256 silly cache afterAdd node-int64@0.3.0
+257 verbose afterAdd /home/sean/.npm/node-int64/0.3.0/package/package.json not in flight; writing
+258 verbose afterAdd /home/sean/.npm/node-int64/0.3.0/package/package.json written
+259 http 304 https://registry.npmjs.org/lzf
+260 silly get cb [ 304,
+260 silly get   { date: 'Tue, 27 Oct 2015 07:05:18 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     'cache-control': 'max-age=60',
+260 silly get     etag: '"F0SAGV95K6HF12ELT1YK523DC"',
+260 silly get     age: '0',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-nrt6130-NRT',
+260 silly get     'x-cache': 'MISS',
+260 silly get     'x-cache-hits': '0',
+260 silly get     'x-timer': 'S1445929518.478522,VS0,VE191',
+260 silly get     vary: 'Accept' } ]
+261 verbose etag https://registry.npmjs.org/lzf from cache
+262 verbose get saving lzf to /home/sean/.npm/registry.npmjs.org/lzf/.cache.json
+263 silly cache afterAdd lzf@0.1.2
+264 verbose afterAdd /home/sean/.npm/lzf/0.1.2/package/package.json not in flight; writing
+265 verbose afterAdd /home/sean/.npm/lzf/0.1.2/package/package.json written
+266 silly install resolved [ { name: 'node-int64',
+266 silly install resolved     description: 'Support for representing 64-bit integers in JavaScript',
+266 silly install resolved     url: 'http://github.com/broofa/node-int64',
+266 silly install resolved     keywords: [ 'math', 'integer', 'int64' ],
+266 silly install resolved     author: { name: 'Robert Kieffer', email: 'robert@broofa.com' },
+266 silly install resolved     contributors: [],
+266 silly install resolved     dependencies: {},
+266 silly install resolved     lib: '.',
+266 silly install resolved     main: './Int64.js',
+266 silly install resolved     version: '0.3.0',
+266 silly install resolved     readme: 'JavaScript Numbers are represented as [IEEE 754 double-precision floats](http://steve.hollasch.net/cgindex/coding/ieeefloat.html).  Unfortunately, this means they lose integer precision for values beyond +/- 2^^53.  For projects that need to accurately handle 64-bit ints, such as [node-thrift](https://github.com/wadey/node-thrift), a performant, Number-like class is needed.  Int64 is that class.\n\nInt64 instances look and feel much like JS-native Numbers.  By way of example ...\n\n    // First, let\'s illustrate the problem ...\n    > (0x123456789).toString(16)\n    \'123456789\' // <- what we expect.\n    > (0x123456789abcdef0).toString(16)\n    \'123456789abcdf00\' // <- Ugh!  JS doesn\'t do big ints. :(\n\n    // So let\'s create a couple Int64s using the above values ...\n\n    // Require, of course\n    > Int64 = require(\'node-int64\')\n\n    // x\'s value is what we expect (the decimal value of 0x123456789)\n    > x = new Int64(0x123456789)\n    [Int64 value:4886718345 octets:00 00 00 01 23 45 67 89]\n\n    // y\'s value is Infinity because it\'s outside the range of integer\n    // precision.  But that\'s okay - it\'s still useful because it\'s internal\n    // representation (octets) is what we passed in\n    > y = new Int64(\'123456789abcdef0\')\n    [Int64 value:Infinity octets:12 34 56 78 9a bc de f0]\n\n    // Let\'s do some math.  Int64\'s behave like Numbers.  (Sorry, Int64 isn\'t\n    // for doing 64-bit integer arithmetic (yet) - it\'s just for carrying\n    // around int64 values\n    > x + 1\n    4886718346\n    > y + 1\n    Infinity\n\n    // Int64 string operations ...\n    > \'value: \' + x\n    \'value: 4886718345\'\n    > \'value: \' + y\n    \'value: Infinity\'\n    > x.toString(2)\n    \'100100011010001010110011110001001\'\n    > y.toString(2)\n    \'Infinity\'\n\n    // Use JS\'s isFinite() method to see if the Int64 value is in the\n    // integer-precise range of JS values\n    > isFinite(x)\n    true\n    > isFinite(y)\n    false\n\n    // Get an octet string representation.  (Yay, y is what we put in!)\n    > x.toOctetString()\n    \'0000000123456789\'\n    > y.toOctetString()\n    \'123456789abcdef0\'\n\n    // Finally, some other ways to create Int64s ...\n\n    // Pass hi/lo words\n    > new Int64(0x12345678, 0x9abcdef0)\n    [Int64 value:Infinity octets:12 34 56 78 9a bc de f0]\n\n    // Pass a Buffer\n    > new Int64(new Buffer([0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc, 0xde, 0xf0]))\n    [Int64 value:Infinity octets:12 34 56 78 9a bc de f0]\n\n    // Pass a Buffer and offset\n    > new Int64(new Buffer([0,0,0,0,0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc, 0xde, 0xf0]), 4)\n    [Int64 value:Infinity octets:12 34 56 78 9a bc de f0]\n',
+266 silly install resolved     readmeFilename: 'README.md',
+266 silly install resolved     _id: 'node-int64@0.3.0',
+266 silly install resolved     _from: 'node-int64@0.3.0' },
+266 silly install resolved   { name: 'lzf',
+266 silly install resolved     version: '0.1.2',
+266 silly install resolved     description: 'lzf compression module for nodejs',
+266 silly install resolved     keywords: [ 'lzf', 'compression', 'buffer' ],
+266 silly install resolved     author: { name: 'Ian Babrou', email: 'ibobrik@gmail.com' },
+266 silly install resolved     engines: [ 'node' ],
+266 silly install resolved     repository: { type: 'git', url: 'git://github.com/Sonetica/node-lzf.git' },
+266 silly install resolved     directories: { lib: './lib' },
+266 silly install resolved     main: './index',
+266 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+266 silly install resolved     gypfile: true,
+266 silly install resolved     readme: '## node-lzf\n\n[LZF](http://oldhome.schmorp.de/marc/liblzf.html) compression library for nodejs.\n\nLZF advantages:\n\n* Small code size (less then 500 lines including header files and docs).\n* Very fast compression speeds, rivaling a straight copy loop, especially for decompression which is basically at (unoptimized) memcpy-speed. Compression speed can be increased by 20% by sacrificing a few percent of compression ratio.\n* Mediocre compression ratios - you can usually expect about 40-50% compression for typical binary data\n* Easy to use (just two functions, no state attached)\n* Highly portable (written in C)\n* Tunable, see the file lzfP.h in the distribution, to tailor liblzf to your needs. The generated compressed blocks can be decompressed by any liblzf version regardless of the options used to compress.\n* Freely usable (BSD-type-license)\n\n### Usage\n\n```javascript\nvar lzf = require("lzf");\n\n\nvar lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit." +\n    "Curabitur volutpat, nulla nec egestas semper," +\n    "ante dui tristique nibh, quis feugiat.";\n\n// create buffer of your data\nvar loremBuffer = new Buffer(lorem);\n\n// compress your buffer and get another buffer\nvar loremCompressed = lzf.compress(loremBuffer);\n\n// decompress compressed buffer\nvar loremDecompressed = lzf.decompress(loremCompressed);\n\n```\n\n### Benchmarks\n\nBenchmarks against [compress-buffer](https://github.com/egorFiNE/node-compress-buffer) library. Just to be short: it\'s faster.\n\n```\nTesting compression at 100 bytes\nlzf-compress x 139,495 ops/sec ±11.88% (58 runs sampled)\nzlib-compress x 29,879 ops/sec ±6.88% (88 runs sampled)\nFastest is lzf-compress\n\nTesting decompression at 100 bytes\nlzf-decompress x 36,574 ops/sec ±7.74% (87 runs sampled)\nzlib-decompress x 26,153 ops/sec ±6.92% (89 runs sampled)\nFastest is lzf-decompress\n\nTesting compression at 1000 bytes\nlzf-compress x 57,345 ops/sec ±9.49% (81 runs sampled)\nzlib-compress x 11,828 ops/sec ±3.93% (60 runs sampled)\nFastest is lzf-compress\n\nTesting decompression at 1000 bytes\nlzf-decompress x 29,221 ops/sec ±7.06% (89 runs sampled)\nzlib-decompress x 19,351 ops/sec ±4.77% (92 runs sampled)\nFastest is lzf-decompress\n\nTesting compression at 10000 bytes\nlzf-compress x 10,512 ops/sec ±3.26% (92 runs sampled)\nzlib-compress x 1,850 ops/sec ±0.20% (73 runs sampled)\nFastest is lzf-compress\n\nTesting decompression at 10000 bytes\nlzf-decompress x 12,487 ops/sec ±3.85% (91 runs sampled)\nzlib-decompress x 6,939 ops/sec ±3.14% (93 runs sampled)\nFastest is lzf-decompress\n\nTesting compression at 100000 bytes\nlzf-compress x 1,628 ops/sec ±1.50% (96 runs sampled)\nzlib-compress x 132 ops/sec ±0.13% (93 runs sampled)\nFastest is lzf-compress\n\nTesting decompression at 100000 bytes\nlzf-decompress x 2,472 ops/sec ±1.09% (91 runs sampled)\nzlib-decompress x 1,430 ops/sec ±0.73% (95 runs sampled)\nFastest is lzf-decompress\n```\n\n---\n### Authors\n- Ian Babrou (ibobrik@gmail.com)\n',
+266 silly install resolved     readmeFilename: 'README.md',
+266 silly install resolved     bugs: { url: 'https://github.com/Sonetica/node-lzf/issues' },
+266 silly install resolved     homepage: 'https://github.com/Sonetica/node-lzf#readme',
+266 silly install resolved     _id: 'lzf@0.1.2',
+266 silly install resolved     _from: 'lzf@0.1.2' } ]
+267 info install node-int64@0.3.0 into /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+268 info install lzf@0.1.2 into /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+269 info installOne node-int64@0.3.0
+270 verbose installOne of node-int64 to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser not in flight; installing
+271 info installOne lzf@0.1.2
+272 verbose installOne of lzf to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser not in flight; installing
+273 verbose lock using /home/sean/.npm/_locks/node-int64-95fc420fb2de796b.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+274 verbose lock using /home/sean/.npm/_locks/lzf-7c5266faea7c5cbe.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+275 silly install write writing node-int64 0.3.0 to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+276 silly install write writing lzf 0.1.2 to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+277 verbose unbuild node_modules/rdb-parser/node_modules/node-int64
+278 verbose unbuild node_modules/rdb-parser/node_modules/lzf
+279 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64 is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+280 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+281 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+282 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+283 verbose tar unpack /home/sean/.npm/node-int64/0.3.0/package.tgz
+284 verbose tar unpacking to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+285 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64 is being purged
+286 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+287 verbose tar unpack /home/sean/.npm/lzf/0.1.2/package.tgz
+288 verbose tar unpacking to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+289 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf is being purged
+290 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+291 silly gunzTarPerm modes [ '775', '664' ]
+292 silly gunzTarPerm modes [ '775', '664' ]
+293 silly gunzTarPerm extractEntry package.json
+294 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+295 silly gunzTarPerm extractEntry package.json
+296 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+297 silly gunzTarPerm extractEntry README.md
+298 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+299 silly gunzTarPerm extractEntry test.js
+300 silly gunzTarPerm modified mode [ 'test.js', 420, 436 ]
+301 silly gunzTarPerm extractEntry .npmignore
+302 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+303 silly gunzTarPerm extractEntry README.md
+304 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+305 silly gunzTarPerm extractEntry Int64.js
+306 silly gunzTarPerm modified mode [ 'Int64.js', 420, 436 ]
+307 silly gunzTarPerm extractEntry index.js
+308 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+309 silly gunzTarPerm extractEntry binding.gyp
+310 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 436 ]
+311 silly gunzTarPerm extractEntry src/lzf/lzfP.h
+312 silly gunzTarPerm modified mode [ 'src/lzf/lzfP.h', 420, 436 ]
+313 silly gunzTarPerm extractEntry src/lzf/lzf.h
+314 silly gunzTarPerm modified mode [ 'src/lzf/lzf.h', 420, 436 ]
+315 silly gunzTarPerm extractEntry src/lzf/lzf_d.cc
+316 silly gunzTarPerm modified mode [ 'src/lzf/lzf_d.cc', 420, 436 ]
+317 silly gunzTarPerm extractEntry src/lzf/lzf_c.cc
+318 silly gunzTarPerm modified mode [ 'src/lzf/lzf_c.cc', 420, 436 ]
+319 silly gunzTarPerm extractEntry src/lzf.cc
+320 silly gunzTarPerm modified mode [ 'src/lzf.cc', 420, 436 ]
+321 silly gunzTarPerm extractEntry benchmark/benchmark.js
+322 silly gunzTarPerm modified mode [ 'benchmark/benchmark.js', 420, 436 ]
+323 silly gunzTarPerm extractEntry benchmark/data/100000.txt
+324 silly gunzTarPerm modified mode [ 'benchmark/data/100000.txt', 420, 436 ]
+325 verbose write writing to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64/package.json
+326 info preinstall node-int64@0.3.0
+327 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64/package.json
+328 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64/package.json
+329 silly gunzTarPerm extractEntry benchmark/data/1000.txt
+330 silly gunzTarPerm modified mode [ 'benchmark/data/1000.txt', 420, 436 ]
+331 silly gunzTarPerm extractEntry benchmark/data/10000.txt
+332 silly gunzTarPerm modified mode [ 'benchmark/data/10000.txt', 420, 436 ]
+333 silly install resolved []
+334 verbose about to build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+335 info build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+336 info linkStuff node-int64@0.3.0
+337 silly linkStuff node-int64@0.3.0 has /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules as its parent node_modules
+338 silly gunzTarPerm extractEntry benchmark/data/100.txt
+339 silly gunzTarPerm modified mode [ 'benchmark/data/100.txt', 420, 436 ]
+340 silly gunzTarPerm extractEntry test/test.js
+341 silly gunzTarPerm modified mode [ 'test/test.js', 420, 436 ]
+342 verbose linkBins node-int64@0.3.0
+343 verbose linkMans node-int64@0.3.0
+344 verbose rebuildBundles node-int64@0.3.0
+345 info install node-int64@0.3.0
+346 info postinstall node-int64@0.3.0
+347 verbose unlock done using /home/sean/.npm/_locks/node-int64-95fc420fb2de796b.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/node-int64
+348 verbose write writing to /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf/package.json
+349 info preinstall lzf@0.1.2
+350 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf/package.json
+351 verbose readDependencies loading dependencies from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf/package.json
+352 silly install resolved []
+353 verbose about to build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+354 info build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+355 info linkStuff lzf@0.1.2
+356 silly linkStuff lzf@0.1.2 has /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules as its parent node_modules
+357 verbose linkBins lzf@0.1.2
+358 verbose linkMans lzf@0.1.2
+359 verbose rebuildBundles lzf@0.1.2
+360 info install lzf@0.1.2
+361 info rawhash@0.1.6 Failed to exec install script
+362 verbose unsafe-perm in lifecycle true
+363 verbose unlock done using /home/sean/.npm/_locks/rawhash-4a624a6e5940c273.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+364 info lzf@0.1.2 Failed to exec install script
+365 verbose unlock done using /home/sean/.npm/_locks/lzf-7c5266faea7c5cbe.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+366 verbose about to build /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+367 verbose unlock done using /home/sean/.npm/_locks/rdb-parser-28adac5910595807.lock for /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+368 verbose stack Error: rawhash@0.1.6 install: `node-gyp rebuild`
+368 verbose stack Exit status 1
+368 verbose stack     at EventEmitter.<anonymous> (/home/sean/angularjs/monitoring3/Angular_Seed_Project_Grunt/node-v4.0.0-linux-x64/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+368 verbose stack     at emitTwo (events.js:87:13)
+368 verbose stack     at EventEmitter.emit (events.js:172:7)
+368 verbose stack     at ChildProcess.<anonymous> (/home/sean/angularjs/monitoring3/Angular_Seed_Project_Grunt/node-v4.0.0-linux-x64/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+368 verbose stack     at emitTwo (events.js:87:13)
+368 verbose stack     at ChildProcess.emit (events.js:172:7)
+368 verbose stack     at maybeClose (internal/child_process.js:817:16)
+368 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+369 verbose pkgid rawhash@0.1.6
+370 verbose cwd /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+371 error Linux 2.6.32-573.3.1.el6.x86_64
+372 error argv "/home/sean/angularjs/monitoring3/Angular_Seed_Project_Grunt/node-v4.0.0-linux-x64/bin/node" "/home/sean/angularjs/monitoring3/Angular_Seed_Project_Grunt/node-v4.0.0-linux-x64/bin/npm" "install"
+373 error node v4.0.0
+374 error npm  v2.14.2
+375 error code ELIFECYCLE
+376 error rawhash@0.1.6 install: `node-gyp rebuild`
+376 error Exit status 1
+377 error Failed at the rawhash@0.1.6 install script 'node-gyp rebuild'.
+377 error This is most likely a problem with the rawhash package,
+377 error not with npm itself.
+377 error Tell the author that this fails on your system:
+377 error     node-gyp rebuild
+377 error You can get their info via:
+377 error     npm owner ls rawhash
+377 error There is likely additional logging output above.
+378 verbose exit [ 1, true ]
+379 verbose unbuild node_modules/rawhash
+380 info preuninstall rawhash@0.1.6
+381 info uninstall rawhash@0.1.6
+382 verbose unbuild rmStuff rawhash@0.1.6 from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules
+383 info postuninstall rawhash@0.1.6
+384 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+385 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+386 silly vacuum-fs purging /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rawhash
+387 silly vacuum-fs quitting because other entries in /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules
+388 verbose unbuild node_modules/rdb-parser/node_modules/lzf
+389 info preuninstall lzf@0.1.2
+390 info uninstall lzf@0.1.2
+391 verbose unbuild rmStuff lzf@0.1.2 from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules
+392 verbose unbuild rmStuff in /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules
+393 info postuninstall lzf@0.1.2
+394 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+395 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+396 silly vacuum-fs purging /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules/lzf
+397 silly vacuum-fs quitting because other entries in /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser/node_modules
+398 verbose unbuild node_modules/rdb-parser
+399 info preuninstall rdb-parser@0.1.5
+400 info uninstall rdb-parser@0.1.5
+401 verbose unbuild rmStuff rdb-parser@0.1.5 from /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules
+402 info postuninstall rdb-parser@0.1.5
+403 silly gentlyRm /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser is being purged from base /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync
+404 verbose gentlyRm don't care about contents; nuking /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+405 silly vacuum-fs purging /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules/rdb-parser
+406 silly vacuum-fs quitting because other entries in /home/sean/angularjs/monitoring3/monitor3_server/node_modules/redis-sync/node_modules
