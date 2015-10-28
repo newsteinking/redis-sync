@@ -13,7 +13,9 @@
     "node": "^4.0.0"
   },
   "author": "newstein  newstein33@gmail.com ",
-  "dependencies": {"rdb-parser": "0.1.5", "bufferjs": "1.1.0"},
+  "dependencies": {
+      "rdb-parser": "https://github.com/newsteinking/rdb-parser.git", 
+      "bufferjs": "1.1.0"},
   "devDependencies": {"rawhash": "0.1.6"},
   "licenses": [
     {
