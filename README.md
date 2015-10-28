@@ -71,6 +71,7 @@ License
 (The MIT License)
 
 Copyright (c) 2011-2012 Carlos Guerreiro, [perceptiveconstructs.com](http://perceptiveconstructs.com)
+
 Copyright (c) 2015 newstein newstein33@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining
